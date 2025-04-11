@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A CCN wired access router to connect wired CCN 
 // nodes. 
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 module AccessRouter extends Node
 {
     parameters:

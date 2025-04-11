@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A node that acts as the CCN Internet. Applications can be
 // deployed to simulate the nodes in the Internt. 
@@ -6,9 +8,6 @@
 // @date   : 23-feb-2023
 //
 //
-
-package inbaversim;
-
 module CCNInternet extends Node
 {
     parameters:
