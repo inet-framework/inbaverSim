@@ -4,14 +4,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
-//
-// A file hosting (content server) application that
-// implements the IApplication interface.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 
 #ifndef __INBAVERSIM_CONTENTHOSTAPP_H_
 #define __INBAVERSIM_CONTENTHOSTAPP_H_
@@ -32,6 +24,14 @@ using namespace std;
 
 class Demiurge;
 
+//
+// A file hosting (content server) application that
+// implements the IApplication interface.
+//
+// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
+// @date   : 31-mar-2021
+//
+//
 class ContentHostApp : public cSimpleModule
 {
 

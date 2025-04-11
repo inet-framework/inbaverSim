@@ -4,14 +4,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
-//
-// A wired transport that implements the ITransport
-// interface.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 
 #ifndef __INBAVERSIM_WIREDTRANSPORT_H_
 #define __INBAVERSIM_WIREDTRANSPORT_H_
@@ -32,6 +24,14 @@ using namespace std;
 class Demiurge;
 class Numen;
 
+//
+// A wired transport that implements the ITransport
+// interface.
+//
+// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
+// @date   : 31-mar-2021
+//
+//
 class WiredTransport : public cSimpleModule
 {
   protected:

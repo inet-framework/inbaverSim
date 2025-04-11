@@ -4,16 +4,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
-//
-// An application that connects an IoT with the Internet
-// and is able to handle the functionality required to
-// manage the duty cycled IoT and the permently-on
-// Internet. It implements the IApplication interface.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 19-feb-2023
-//
-//
 
 #ifndef __INBAVERSIM_IOTGATEWAYAPP_H_
 #define __INBAVERSIM_IOTGATEWAYAPP_H_
@@ -34,6 +24,16 @@ using namespace std;
 
 class Demiurge;
 
+//
+// An application that connects an IoT with the Internet
+// and is able to handle the functionality required to
+// manage the duty cycled IoT and the permently-on
+// Internet. It implements the IApplication interface.
+//
+// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
+// @date   : 19-feb-2023
+//
+//
 class IoTGatewayApp : public cSimpleModule
 {
 

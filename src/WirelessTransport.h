@@ -4,14 +4,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
-//
-// A wireless transport that implements the ITransport
-// interface.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 
 #ifndef __INBAVERSIM_WIRELESSTRANSPORT_H_
 #define __INBAVERSIM_WIRELESSTRANSPORT_H_
@@ -31,6 +23,14 @@ using namespace std;
 class Demiurge;
 class Numen;
 
+//
+// A wireless transport that implements the ITransport
+// interface.
+//
+// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
+// @date   : 31-mar-2021
+//
+//
 class WirelessTransport : public cSimpleModule
 {
     protected:

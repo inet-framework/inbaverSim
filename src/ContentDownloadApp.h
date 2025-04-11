@@ -4,14 +4,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
-//
-// A file download client (content requester) application that
-// implements the IApplication interface.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 
 #ifndef __INBAVERSIM_CONTENTDOWNLOADAPP_H_
 #define __INBAVERSIM_CONTENTDOWNLOADAPP_H_
@@ -30,6 +22,14 @@ using namespace std;
 class Demiurge;
 class Numen;
 
+//
+// A file download client (content requester) application that
+// implements the IApplication interface.
+//
+// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
+// @date   : 31-mar-2021
+//
+//
 class ContentDownloadApp : public cSimpleModule
 {
   protected:
