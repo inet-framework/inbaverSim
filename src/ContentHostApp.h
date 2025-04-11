@@ -22,10 +22,10 @@ using namespace std;
 
 class Demiurge;
 
-//
-// A file hosting (content server) application that
-// implements the IApplication interface.
-//
+/**
+ * A file hosting (content server) application that
+ * implements the IApplication interface.
+ */
 class ContentHostApp : public cSimpleModule
 {
 

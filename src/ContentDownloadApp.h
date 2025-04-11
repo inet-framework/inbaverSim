@@ -20,10 +20,10 @@ using namespace std;
 class Demiurge;
 class Numen;
 
-//
-// A file download client (content requester) application that
-// implements the IApplication interface.
-//
+/**
+ * A file download client (content requester) application that
+ * implements the IApplication interface.
+ */
 class ContentDownloadApp : public cSimpleModule
 {
   protected:

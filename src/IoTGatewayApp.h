@@ -22,12 +22,12 @@ using namespace std;
 
 class Demiurge;
 
-//
-// An application that connects an IoT with the Internet
-// and is able to handle the functionality required to
-// manage the duty cycled IoT and the permently-on
-// Internet. It implements the IApplication interface.
-//
+/**
+ * An application that connects an IoT with the Internet
+ * and is able to handle the functionality required to
+ * manage the duty cycled IoT and the permently-on
+ * Internet. It implements the IApplication interface.
+ */
 class IoTGatewayApp : public cSimpleModule
 {
 

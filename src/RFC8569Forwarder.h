@@ -23,10 +23,10 @@ using namespace std;
 class Demiurge;
 class Numen;
 
-//
-// A CCN forwarder implementing the RFC 8569 using the
-// IForwarder interface.
-//
+/**
+ * A CCN forwarder implementing the RFC 8569 using the
+ * IForwarder interface.
+ */
 class RFC8569Forwarder : public cSimpleModule
 {
   protected:

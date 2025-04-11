@@ -21,10 +21,10 @@ using namespace std;
 class Demiurge;
 class Numen;
 
-//
-// A wireless transport that implements the ITransport
-// interface.
-//
+/**
+ * A wireless transport that implements the ITransport
+ * interface.
+ */
 class WirelessTransport : public cSimpleModule
 {
     protected:

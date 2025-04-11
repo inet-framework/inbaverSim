@@ -10,11 +10,11 @@
 
 using namespace omnetpp;
 
-//
-// The node specific control module of a CCN node. Only one
-// of these instances are created in a simulation for every
-// node.
-//
+/**
+ * The node specific control module of a CCN node. Only one
+ * of these instances are created in a simulation for every
+ * node.
+ */
 class Numen : public cSimpleModule
 {
   protected:

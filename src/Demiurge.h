@@ -12,10 +12,10 @@
 using namespace omnetpp;
 using namespace std;
 
-//
-// The global control module of a CCN network. Only one
-// of these instances are created in a simulation.
-//
+/**
+ * The global control module of a CCN network. Only one
+ * of these instances are created in a simulation.
+ */
 class Demiurge : public cSimpleModule
 {
     private:

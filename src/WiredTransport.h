@@ -22,10 +22,10 @@ using namespace std;
 class Demiurge;
 class Numen;
 
-//
-// A wired transport that implements the ITransport
-// interface.
-//
+/**
+ * A wired transport that implements the ITransport
+ * interface.
+ */
 class WiredTransport : public cSimpleModule
 {
   protected:

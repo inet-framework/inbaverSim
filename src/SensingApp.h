@@ -22,11 +22,11 @@ using namespace std;
 
 class Demiurge;
 
-//
-// A generic sensing application that is able to be
-// configured to return different data values of
-// sensors. It implements the IApplication interface.
-//
+/**
+ * A generic sensing application that is able to be
+ * configured to return different data values of
+ * sensors. It implements the IApplication interface.
+ */
 class SensingApp : public cSimpleModule
 {
 
