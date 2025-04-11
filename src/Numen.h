@@ -1,4 +1,10 @@
 //
+// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+//
+
+//
 // The node specific control module of a CCN node. Only one
 // of these instances are created in a simulation for every
 // node.

@@ -1,4 +1,10 @@
 //
+// Copyright (C) 2023 Asanga Udugama (adu@comnets.uni-bremen.de)
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+//
+
+//
 // A simple application to retrieve data from a sensor network
 // managed by a gateway, that implements the IApplication
 // interface.

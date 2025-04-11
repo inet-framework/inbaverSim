@@ -1,4 +1,10 @@
 //
+// Copyright (C) 2023 Asanga Udugama (adu@comnets.uni-bremen.de)
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+//
+
+//
 // An application that connects an IoT with the Internet
 // and is able to handle the functionality required to
 // manage the duty cycled IoT and the permently-on
