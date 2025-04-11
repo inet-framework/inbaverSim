@@ -1,17 +1,11 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim;
 
 //
-// A CCN content server hosting applications. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
+// A CCN content server hosting applications.
 //
 module ContentServer extends Node
 {

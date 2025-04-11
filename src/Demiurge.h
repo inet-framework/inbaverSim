@@ -1,6 +1,4 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
@@ -17,10 +15,6 @@ using namespace std;
 //
 // The global control module of a CCN network. Only one
 // of these instances are created in a simulation.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
 //
 class Demiurge : public cSimpleModule
 {

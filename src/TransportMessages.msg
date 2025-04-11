@@ -1,10 +1,6 @@
 //
 // Formats of messages used by transports
 //
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 
 //
 // Transport message that encapsulates CCNx messages

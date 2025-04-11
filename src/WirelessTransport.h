@@ -1,6 +1,4 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
@@ -26,10 +24,6 @@ class Numen;
 //
 // A wireless transport that implements the ITransport
 // interface.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
 //
 class WirelessTransport : public cSimpleModule
 {

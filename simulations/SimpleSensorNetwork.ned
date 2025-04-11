@@ -1,18 +1,9 @@
 //
-// Copyright (C) 2023 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim.simulations;
 
-//
-// A simple CCN based sensor network. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 18-feb-2023
-//
-//
 import inbaversim.AccessRouter;
 import inbaversim.Demiurge;
 import inbaversim.WiredNode;
@@ -21,6 +12,9 @@ import inbaversim.WirelessSensorNode;
 import ned.DatarateChannel;
 
 
+//
+// A simple CCN based sensor network.
+//
 network SimpleSensorNetwork
 {
     parameters:

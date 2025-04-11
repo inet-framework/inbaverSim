@@ -2,10 +2,6 @@
 // The formats of all the messages defined in RFC 8609 for
 // communications between CCN nodes.
 //
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 
 //
 // Format of a CCNx Interest packet
@@ -34,7 +30,7 @@ packet InterestMsg
     // no security aspects incorporated yet
 
 
-    //====== Others fields used only by simulator 
+    //====== Others fields used only by simulator
 
     // msg sizes in bytes
     int headerSize;
@@ -42,7 +38,7 @@ packet InterestMsg
 
     // hops
     int hopsTravelled;
-    
+
     // arrival face ID and type at the forwarding (CCN) layer
     long arrivalFaceID;
     int arrivalFaceType;
@@ -76,7 +72,7 @@ packet ContentObjMsg
     // no security aspects incorporated yet
 
 
-    //====== Others fields used only by simulator 
+    //====== Others fields used only by simulator
 
     // msg sizes in bytes
     int headerSize;
@@ -109,7 +105,7 @@ enum ReturnCodeTypes
 packet InterestRtnMsg
 {
 
-    //====== Return Code 
+    //====== Return Code
 
     // return reason
     int returnCode @enum(ReturnCodeTypes);
@@ -124,7 +120,7 @@ packet InterestRtnMsg
     string versionName;
     int segmentNum;
 
-    //====== Others fields used only by simulator 
+    //====== Others fields used only by simulator
 
     // msg sizes in bytes
     int headerSize;

@@ -1,18 +1,12 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim;
 
 //
-// A CCN wireless access router to connect WLAN based 
-// CCN nodes. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
+// A CCN wireless access router to connect WLAN based
+// CCN nodes.
 //
 module WirelessAccessRouter extends Node
 {
@@ -22,7 +16,7 @@ module WirelessAccessRouter extends Node
         // number of transports
         int wirelessAccessRouterNumWiredTransports = default(1);
         int wirelessAccessRouterNumWirelessTransports = default(1);
-                
+
         // forwarder used in node
         string forwarder = default("RFC8569Forwarder");
 

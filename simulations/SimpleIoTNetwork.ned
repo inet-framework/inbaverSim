@@ -1,18 +1,9 @@
 //
-// Copyright (C) 2023 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim.simulations;
 
-//
-// A simple IoT CCN network. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 18-feb-2023
-//
-//
 import inbaversim.AccessRouter;
 import inbaversim.CCNInternet;
 import inbaversim.ContentServer;
@@ -26,6 +17,9 @@ import inbaversim.WirelessSensorNode;
 import ned.DatarateChannel;
 
 
+//
+// A simple IoT CCN network.
+//
 network SimpleIoTNetwork
 {
     parameters:

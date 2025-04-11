@@ -1,20 +1,14 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim;
 
-//
-// A CCN node containing the CCN protocol stack. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 import inet.mobility.contract.IMobility;
 
+//
+// A CCN node containing the CCN protocol stack.
+//
 module Node
 {
     parameters:

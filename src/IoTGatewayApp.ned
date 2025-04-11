@@ -1,6 +1,4 @@
 //
-// Copyright (C) 2023 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
@@ -11,14 +9,10 @@ package inbaversim;
 // and is able to receive and store sensor data from the local
 // IoT. It implements the IApplication interface.
 //
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 19-feb-2023
-//
-//
 simple IoTGatewayApp like IApplication
 {
     parameters:
-        
+
         // Prefix hosted at the gateway for outside world to access sensor data
         string hostedPrefixName = default("ccnx://uni-bremen.de/ee/iot/");
 
@@ -30,7 +24,7 @@ simple IoTGatewayApp like IApplication
 
         // lifetime of a interest sent to the sensor network
         double interestLifetime @unit(s) = default(2s);
-        
+
         // maximum historical sensor reading to hold
         int maximumSensorReadingsToKeep = default(50);
 

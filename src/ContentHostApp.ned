@@ -1,18 +1,12 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim;
 
 //
-// A file hosting (content server) application that 
+// A file hosting (content server) application that
 // implements the IApplication interface.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
 //
 simple ContentHostApp like IApplication
 {
@@ -22,7 +16,7 @@ simple ContentHostApp like IApplication
         string dataNamePrefix = default("file");
         volatile int segmentSize @unit(byte) = default(10000byte);
         volatile int numSegmentsPerFile = default(intuniform(5, 100));
-        volatile double cacheTime @unit(s) = default(3600s); // 0 means infinite 
+        volatile double cacheTime @unit(s) = default(3600s); // 0 means infinite
 
         // statistic signals
         @signal[appTotalInterestsBytesReceived](type=long);

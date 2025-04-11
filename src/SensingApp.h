@@ -1,6 +1,4 @@
 //
-// Copyright (C) 2023 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
@@ -28,10 +26,6 @@ class Demiurge;
 // A generic sensing application that is able to be
 // configured to return different data values of
 // sensors. It implements the IApplication interface.
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 18-feb-2023
-//
 //
 class SensingApp : public cSimpleModule
 {

@@ -1,6 +1,4 @@
 //
-// Copyright (C) 2023 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
@@ -8,11 +6,7 @@ package inbaversim;
 
 //
 // A node that acts as the CCN Internet. Applications can be
-// deployed to simulate the nodes in the Internt. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 23-feb-2023
-//
+// deployed to simulate the nodes in the Internt.
 //
 module CCNInternet extends Node
 {
@@ -22,7 +16,7 @@ module CCNInternet extends Node
         // transports used in node
         int internetNumWiredTransports = default(0);
         int internetNumWirelessTransports = default(0);
-        
+
         // forwarder used in node
         string forwarder = default("RFC8569Forwarder");
 

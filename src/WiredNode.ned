@@ -1,17 +1,11 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim;
 
 //
-// A wired CCN node with one wired interface. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
+// A wired CCN node with one wired interface.
 //
 module WiredNode extends Node
 {

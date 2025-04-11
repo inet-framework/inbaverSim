@@ -1,18 +1,9 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim.simulations;
 
-//
-// A simple CCN network. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 import inbaversim.AccessRouter;
 import inbaversim.ContentServer;
 import inbaversim.CoreRouter;
@@ -23,6 +14,9 @@ import inbaversim.WirelessNode;
 import ned.DatarateChannel;
 
 
+//
+// A simple CCN network.
+//
 network SimpleNetwork
 {
     parameters:
@@ -32,9 +26,9 @@ network SimpleNetwork
 
         @statistic[fwdNetworkCacheHitRatio](source=fwdNetworkCacheHitRatio; record=min,max,count,last,vector);
         @statistic[fwdNetworkCacheMissRatio](source=fwdNetworkCacheMissRatio; record=min,max,count,last,vector);
-        
+
         @display("bgb=410,372");
-    
+
     submodules:
         accessRouter: AccessRouter {
             @display("p=90,217");

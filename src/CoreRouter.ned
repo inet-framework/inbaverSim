@@ -1,18 +1,12 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim;
 
 //
-// A CCN root router that routes between content providers 
-// and propagates prefixes. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
+// A CCN root router that routes between content providers
+// and propagates prefixes.
 //
 module CoreRouter extends Node
 {
@@ -22,7 +16,7 @@ module CoreRouter extends Node
         // transports used in node
         int coreRouterNumWiredTransports = default(0);
         int coreRouterNumWirelessTransports = default(0);
-        
+
         // forwarder used in node
         string forwarder = default("RFC8569Forwarder");
 

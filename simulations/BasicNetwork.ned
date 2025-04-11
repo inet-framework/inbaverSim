@@ -1,24 +1,18 @@
 //
-// Copyright (C) 2021 Asanga Udugama (adu@comnets.uni-bremen.de)
-//
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 package inbaversim.simulations;
 
-//
-// A basic CCN network for testing. 
-//
-// @author : Asanga Udugama (adu@comnets.uni-bremen.de)
-// @date   : 31-mar-2021
-//
-//
 import inbaversim.ContentServer;
 import inbaversim.Demiurge;
 import inbaversim.WirelessAccessRouter;
 import inbaversim.WirelessNode;
 import ned.DatarateChannel;
 
+//
+// A basic CCN network for testing.
+//
 network BasicNetwork
 {
     parameters:
