@@ -1,3 +1,5 @@
+package inbaversim.simulations;
+
 //
 // A basic CCN network for testing. 
 //
@@ -5,9 +7,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim.simulations;
-
 import inbaversim.ContentServer;
 import inbaversim.Demiurge;
 import inbaversim.WirelessAccessRouter;

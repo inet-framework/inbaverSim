@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A CCN forwarder implementing the RFC 8569 using the
 // IForwarder interface.
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 //
 // TODO auto-generated module
 //

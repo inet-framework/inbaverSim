@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // The control module of a CCN node.
 //
@@ -5,9 +7,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 simple Numen
 {
     parameters:

@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A CCN content server hosting applications. 
 //
@@ -5,9 +7,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 module ContentServer extends Node
 {
     parameters:

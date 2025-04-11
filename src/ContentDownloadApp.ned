@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A file download client (content requester) application that 
 // implements the IApplication interface.
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 simple ContentDownloadApp like IApplication
 {
     parameters:

@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A CCN root router that routes between content providers 
 // and propagates prefixes. 
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 module CoreRouter extends Node
 {
     parameters:

@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A wireless transport that implements the ITransport
 // interface.
@@ -6,8 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-package inbaversim;
-
 simple WirelessTransport like ITransport
 {
     parameters:

@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // The global control module of a CCN network. Only one
 // of these instances are created in a simulation.
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 simple Demiurge
 {
     parameters:

@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A generic sensing application that is able to be
 // configured to return different data values of 
@@ -7,9 +9,6 @@
 // @date   : 18-feb-2023
 //
 //
-
-package inbaversim;
-
 simple SensingApp like IApplication
 {
     parameters:

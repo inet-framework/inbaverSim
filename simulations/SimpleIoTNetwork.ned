@@ -1,3 +1,5 @@
+package inbaversim.simulations;
+
 //
 // A simple IoT CCN network. 
 //
@@ -5,9 +7,6 @@
 // @date   : 18-feb-2023
 //
 //
-
-package inbaversim.simulations;
-
 import inbaversim.AccessRouter;
 import inbaversim.CCNInternet;
 import inbaversim.ContentServer;

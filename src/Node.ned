@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A CCN node containing the CCN protocol stack. 
 //
@@ -5,9 +7,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 import inet.mobility.contract.IMobility;
 
 module Node

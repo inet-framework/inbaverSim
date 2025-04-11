@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A CCN based IoT gatewway with 2 network interfaces - a
 // LoRa interface facing a sensor network and an Ethernet 
@@ -7,9 +9,6 @@
 // @date   : 18-feb-2023
 //
 //
-
-package inbaversim;
-
 module IoTGateway extends Node
 {
     parameters:

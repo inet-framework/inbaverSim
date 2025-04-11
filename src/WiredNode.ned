@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A wired CCN node with one wired interface. 
 //
@@ -5,9 +7,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 module WiredNode extends Node
 {
     parameters:

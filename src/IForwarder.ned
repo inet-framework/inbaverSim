@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // Interface of a CCN forwarder.
 //
@@ -5,8 +7,6 @@
 // @date   : 31-mar-2021
 //
 //
-package inbaversim;
-
 moduleinterface IForwarder
 {
     parameters:

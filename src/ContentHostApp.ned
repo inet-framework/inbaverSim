@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A file hosting (content server) application that 
 // implements the IApplication interface.
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 simple ContentHostApp like IApplication
 {
     parameters:

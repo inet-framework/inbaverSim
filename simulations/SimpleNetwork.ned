@@ -1,3 +1,5 @@
+package inbaversim.simulations;
+
 //
 // A simple CCN network. 
 //
@@ -5,9 +7,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim.simulations;
-
 import inbaversim.AccessRouter;
 import inbaversim.ContentServer;
 import inbaversim.CoreRouter;

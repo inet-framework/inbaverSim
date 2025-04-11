@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A wired transport that implements the ITransport
 // interface.
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 simple WiredTransport like ITransport
 {
     parameters:

@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // An application that serves sensor data to the outside world
 // and is able to receive and store sensor data from the local
@@ -7,9 +9,6 @@
 // @date   : 19-feb-2023
 //
 //
-
-package inbaversim;
-
 simple IoTGatewayApp like IApplication
 {
     parameters:

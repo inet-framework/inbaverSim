@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A CCN wireless access router to connect WLAN based 
 // CCN nodes. 
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 module WirelessAccessRouter extends Node
 {
     parameters:

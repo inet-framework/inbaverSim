@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A wireless sensor node that communicates over CCN. It has one
 // LoRa wireless network interface. 
@@ -6,9 +8,6 @@
 // @date   : 18-feb-2023
 //
 //
-
-package inbaversim;
-
 import inbaversim.Node;
 import inbaversim.WirelessTransport;
 

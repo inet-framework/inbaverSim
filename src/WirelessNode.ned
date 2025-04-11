@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A wireless CCN node with two network interfaces, one
 // WLAN and the other Bluetooth. 
@@ -6,9 +8,6 @@
 // @date   : 31-mar-2021
 //
 //
-
-package inbaversim;
-
 //import inet.mobility.static.StationaryMobility;
 //import inet.mobility.base.MobilityBase;
 

@@ -1,3 +1,5 @@
+package inbaversim;
+
 //
 // A simple application to retrieve data from a sensor network
 // managed by a gateway, that implements the IApplication 
@@ -7,9 +9,6 @@
 // @date   : 24-feb-2023
 //
 //
-
-package inbaversim;
-
 simple ThingsApp like IApplication
 {
     parameters:
