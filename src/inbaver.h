@@ -1,3 +1,6 @@
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+//
 
 #ifndef INBAVER_H_
 #define INBAVER_H_

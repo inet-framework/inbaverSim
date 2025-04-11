@@ -1,4 +1,8 @@
 //
+// SPDX-License-Identifier: GPL-3.0-or-later
+//
+
+//
 // The formats of all the messages used internally by a node to
 // communication between models.
 //

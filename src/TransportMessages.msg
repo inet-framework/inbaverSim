@@ -1,5 +1,5 @@
 //
-// Formats of messages used by transports
+// SPDX-License-Identifier: GPL-3.0-or-later
 //
 
 //

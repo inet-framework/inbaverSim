@@ -1,4 +1,8 @@
 //
+// SPDX-License-Identifier: GPL-3.0-or-later
+//
+
+//
 // The formats of all the messages defined in RFC 8609 for
 // communications between CCN nodes.
 //
